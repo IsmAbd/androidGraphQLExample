@@ -1,0 +1,8 @@
+query Restaurants($restaurantID: String!) {
+  getRestaurantByID(restaurantID: $restaurantID){
+    name
+    businessUser{
+      fname
+    }
+  }
+}
